@@ -220,7 +220,8 @@ header, section, footer {
 }
 
 .subscr-form {
-  padding: 0 60px 0 15px;
+  width: 300px;
+  padding: 0 15px;
   background: #ffffff;
   border: 1.5px solid #000000;
   font-family: Roboto;
