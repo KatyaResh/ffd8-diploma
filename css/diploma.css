@@ -77,12 +77,13 @@ header, section, footer {
   color: #000000;
   transition: none;
 }
+/*Конец верстки Header*/
+
 
 .arrow {
   margin: 150px auto;
   width: 0px;
 }
-/*Конец верстки Header*/
 
 
 /*Начало верстки Section*/
