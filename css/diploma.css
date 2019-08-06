@@ -159,6 +159,8 @@ header, section, footer {
   display: flex;
   flex-direction: column;
   padding-left: 120px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   width: 58%;
   background-image: url(https://i.ibb.co/HPpKYrf/Group.png);
   background-repeat: no-repeat;
@@ -169,6 +171,8 @@ header, section, footer {
   display: flex;
   justify-content: flex-end;
   width: 35%;
+  padding-top: 120px;
+  padding-right: 120px;
 }
 
 .footer__title {
@@ -178,7 +182,6 @@ header, section, footer {
   font-size: 36px;
   color: #F6DE5C;
   text-shadow: 5px 5px 3px #000000; 
-  margin-top: 200px;
 }
 
 .footer__subtitle {
@@ -194,7 +197,6 @@ header, section, footer {
 
 .subscr {
   font-size: 0;
-  margin-bottom: 200px;
   width: 100%;
 }
 
@@ -227,11 +229,6 @@ header, section, footer {
   font-style: italic;
   line-height: 45px;
   color: #747373;
-}
-
-.footer__menu {
-  margin-top: 120px;
-  margin-right: 120px;
 }
 
 .footer__list, .social {
