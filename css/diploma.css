@@ -15,18 +15,18 @@ header, section, footer {
   display: flex;
 }
 
-.block__1 {
+.block__narrow {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 35%;
-  margin-left: 120px;
+  padding-left: 120px;
 }
 
-.block__2 {
+.block__wide {
   display: flex;
   justify-content: flex-end;
-  width: 58%;
+  width: 65%;
 }
 
 .header__logo {
@@ -53,10 +53,13 @@ header, section, footer {
   color: #747373;
 }
 
+.button {
+  margin: 60px 0;
+}
+
 .header__button {
   display: inline-block;
   padding: 10px 30px;
-  margin: 60px 0;
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
@@ -74,15 +77,12 @@ header, section, footer {
   color: #000000;
   transition: none;
 }
-/*Конец верстки Header*/
 
-
-/*Начало верстки Arrow*/
 .arrow {
   margin: 150px auto;
   width: 0px;
 }
-/*Конец верстки Arrow*/
+/*Конец верстки Header*/
 
 
 /*Начало верстки Section*/
@@ -236,6 +236,7 @@ header, section, footer {
 
 .footer__list, .social {
   list-style-type: none;
+  padding: 0;
 }
 
 .button__up {
@@ -263,11 +264,14 @@ header, section, footer {
   margin-top: 60px;
 }
 
+.social li {
+  margin-right: 15px;
+}
+
 .social__icon {
-  float: left;
+  display: block;
   width: 20px;
   height: 20px;
-  margin-right: 15px;
   background-image: url(https://i.ibb.co/D7LMkWx/image.png);
   background-position-y: 0;
 }
