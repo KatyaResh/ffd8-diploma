@@ -30,12 +30,10 @@ header, section, footer {
 }
 
 .header__logo {
-  display: block;
   margin: 40px 0px;
 }
   
 .header__title {
-  display: block;
   font-family: Roboto;
   font-weight: bold;
   font-size: 48px;
@@ -90,14 +88,13 @@ header, section, footer {
 /*Начало верстки Section*/
 .section__title {
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .catalogue__items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 100px auto;
+  margin: 130px auto;
 }
 
 .catalogue__item {
@@ -264,7 +261,8 @@ header, section, footer {
   margin-top: 60px;
 }
 
-.social li {
+li .facebook,
+li .twitter {
   margin-right: 15px;
 }
 
