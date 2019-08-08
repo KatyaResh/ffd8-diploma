@@ -109,7 +109,7 @@ header, section, footer {
 }
 
 /*.item__short:hover {
-  background-image: url(https://i.ibb.co/Bf08wxR/image.png);
+  background-image: url("../pic/платье_н.png");
 }*/
 
 .item__short:after {
@@ -129,7 +129,7 @@ header, section, footer {
 }
 
 .item__medium:hover {
-  background-image: url(https://i.ibb.co/k1FcZdJ/1.png);
+  background-image: url("../pic/костюмы_н.png");
 }
 
 .item__long {
@@ -139,7 +139,7 @@ header, section, footer {
 }
 
 .item__long:hover {
-  background-image: url(https://i.ibb.co/pQcGVrK/2.png);
+  background-image: url("../pic/аксессуары_н.png");
 }
 
 .catalogue__text {
