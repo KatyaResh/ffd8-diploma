@@ -103,7 +103,7 @@ header, section, footer {
 }
 
 .item__short {
-  background-image: url("../css/pic/платья.png");
+  background-image: url("../pic/платья.png");
   background-repeat: no-repeat;
   height: 520px;
 }
@@ -123,7 +123,7 @@ header, section, footer {
 }
 
 .item__medium {
-  background-image: url("../css/pic/костюмы.png");
+  background-image: url("../pic/костюмы.png");
   background-repeat: no-repeat;
   height: 550px;
 }
@@ -133,7 +133,7 @@ header, section, footer {
 }
 
 .item__long {
-  background-image: url("../css/pic/аксессуары.png");
+  background-image: url("../pic/аксессуары.png");
   background-repeat: no-repeat;
   height: 580px;
 }
@@ -171,7 +171,7 @@ header, section, footer {
   padding-top: 200px;
   padding-bottom: 200px;
   width: 58%;
-  background-image: url("../css/pic/Group.png");
+  background-image: url("../pic/Group.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
