@@ -312,6 +312,50 @@ li .twitter {
 
 /*Начало section*/
   
+.section__title {
+  text-align: center;
+}
+
+.catalogue__items {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.catalogue__item {
+  display: block;
+}
+
+.item__short {
+  background-image: url("../pic/платья_320.png");
+  background-repeat: no-repeat;
+  height: 520px;
+}
+
+.item__medium {
+  background-image: url("../pic/костюмы_320.png");
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.item__long {
+  background-image: url("../pic/аксессуары_320.png");
+  background-repeat: no-repeat;
+  height: 580px;
+}
+
+.catalogue__text {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  line-height: 23px;
+}
+  
 /*Конец section*/ 
   
   
