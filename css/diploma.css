@@ -103,16 +103,16 @@ header, section, footer {
 }
 
 .item__short {
-  background-image: url("../pic/платья.png");
+  background-image: url("https://i.ibb.co/nwzRZkY/image.png");
   background-repeat: no-repeat;
   height: 520px;
 }
 
-/*.item__short:hover {
-  background-image: url("../pic/платье_н.png");
-}*/
+.item__short:hover {
+  background-image: url("https://i.ibb.co/yykfBmG/image.png");
+}
 
-.item__short:after {
+/*.item__short:after {
   content:"";
   background: #F6DE5C;
   opacity: 0;
@@ -120,26 +120,26 @@ header, section, footer {
 
 .item__short:after:hover {
   opacity: 0.75;
-}
+}*/
 
 .item__medium {
-  background-image: url("../pic/костюмы.png");
+  background-image: url("https://i.ibb.co/b1W5zK9/image.png");
   background-repeat: no-repeat;
   height: 550px;
 }
 
 .item__medium:hover {
-  background-image: url("../pic/костюмы_н.png");
+  background-image: url("https://i.ibb.co/X7hQ8vm/image.png");
 }
 
 .item__long {
-  background-image: url("../pic/аксессуары.png");
+  background-image: url("https://i.ibb.co/V0G6x0D/image.png");
   background-repeat: no-repeat;
   height: 580px;
 }
 
 .item__long:hover {
-  background-image: url("../pic/аксессуары_н.png");
+  background-image: url("https://i.ibb.co/k5ZfRTw/image.png");
 }
 
 .catalogue__text {
@@ -171,7 +171,7 @@ header, section, footer {
   padding-top: 200px;
   padding-bottom: 200px;
   width: 58%;
-  background-image: url("../pic/Group.png");
+  background-image: url("https://i.ibb.co/fN2Whx3/Group.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -327,19 +327,19 @@ li .twitter {
 }
 
 .item__short {
-  background-image: url("../pic/платья_320.png");
+  background-image: url("https://i.ibb.co/fpV6VYt/320.png");
   background-repeat: no-repeat;
   height: 520px;
 }
 
 .item__medium {
-  background-image: url("../pic/костюмы_320.png");
+  background-image: url("https://i.ibb.co/StXKr2F/320.png");
   background-repeat: no-repeat;
   height: 550px;
 }
 
 .item__long {
-  background-image: url("../pic/аксессуары_320.png");
+  background-image: url("https://i.ibb.co/Tk15PFW/320.png");
   background-repeat: no-repeat;
   height: 580px;
 }
