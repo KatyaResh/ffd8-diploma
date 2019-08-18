@@ -313,6 +313,10 @@ li .twitter {
 
 .mobile__menu {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  width: calc(100% - 30px);
 }
   
 .block__narrow {
@@ -328,14 +332,20 @@ li .twitter {
 
 /*Начало section*/
   
+.arrow {
+  margin: 50px auto;
+}
+  
 .section__title {
   text-align: center;
 }
 
 .catalogue__items {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .catalogue__item {
